@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>BusYatri-Home</title>
+<style>
+html { 
+  background: url(1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+input[type=text] {
+  border: 2px solid red;
+  border-radius: 4px;}
+
+</style>
+</head>
+<body><center>
+<h1>BusYatri</h1>
+<hr color=red size=3>
+<br><br><br>	
+<form>
+<table>
+<tr>
+<td><label >Source City</label>
+<td><input list="browsers" ><br><br>
+</tr>
+<tr>
+<td><label for="lname"> Destination City</label>
+<td><input list="browsers">
+</tr>
+<tr>
+<td>Date of Journey
+<td><input type="date">
+</tr>
+<tr>
+<td><input type="button" value="Check Availability">
+<td><input type="reset">
+</tr>
+<datalist id="browsers">
+    <option value="Mangalore">
+    <option value="Bangalore">
+    <option value="Mysore">
+    <option value="Delhi">
+    <option value="Mumbai">
+  </datalist>
+</form>
+</body>
+</html>
